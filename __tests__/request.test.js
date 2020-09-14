@@ -1,4 +1,4 @@
-const request = require('./request');
+const request = require('../lib/request');
 
 describe('request function', () => {
     it('makes request to books site and returns a promise that resolves with an h1', async () => {
