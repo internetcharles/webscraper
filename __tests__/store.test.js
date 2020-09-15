@@ -19,5 +19,6 @@ describe('store function', () => {
         const { rows } = await pool.query('SELECT * FROM books');
 
         expect(rows).toHaveLength(3)
+        
     })
 })

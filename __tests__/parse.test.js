@@ -12,7 +12,7 @@ describe('parse function', () => {
             cover_img: expect.any(String),
             rating: expect.any(String),
             price: expect.any(String),
-            in_stock: expect.any(Boolean)}
+            in_stock: true}
         ]))
     })
 }) 
