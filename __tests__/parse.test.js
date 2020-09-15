@@ -3,7 +3,7 @@ const parse = require('../lib/parse');
 
 describe('parse function', () => {
     it('returns book objects from the document', async () => {
-        document = await request();
+        document = await request(1);
 
         const books = parse(document);
 
